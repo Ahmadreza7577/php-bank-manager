@@ -1,0 +1,29 @@
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local database exports and backups
+*.sql
+*.sql.gz
+*.bak
+
+
+# Allow the database schema to be published
+!database/
+!database/schema.sql

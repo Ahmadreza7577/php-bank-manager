@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #1f2937;
+}
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 240px;
+    background: #111827;
+    color: white;
+    padding: 25px 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.sidebar a {
+    display: block;
+    color: #d1d5db;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.sidebar a:hover {
+    background: #1f2937;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 35px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.balance-card {
+    background: white;
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+}
+
+.balance-card p {
+    color: #6b7280;
+}
+
+.balance {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    background: #2563eb;
+}
+
+.button:hover {
+    background: #1d4ed8;
+}
+
+.button.withdraw {
+    background: #dc2626;
+}
+
+.button.withdraw:hover {
+    background: #b91c1c;
+}
+
+.account-number {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+}
