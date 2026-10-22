@@ -285,7 +285,7 @@ $balance = (float) $latestAccount["balance"];
 
         <form method="POST" action="withdraw.php">
             
-            //<input
+            <input
                 type="hidden"
                 name="csrf_token"
                 value="<?= htmlspecialchars(generateCsrfToken(), ENT_QUOTES, 'UTF-8') ?>"
