@@ -117,3 +117,28 @@ This project helped me practice:
 
 GitHub:
 https://github.com/Ahmadreza7577
+
+
+## Screenshots
+
+### Dashboard
+![Bank Manager Dashboard](screenshots/dashboard.png)
+
+### Transaction History
+![Transaction History](screenshots/transactions.png)
+
+### Login
+![Login Page](screenshots/login.png)
+
+### Transfer
+![Transfer Page](screenshots/transfer.png)
+
+### Profile
+![Bank Manager Profile](screenshots/profile.png)
+
+### Deposit
+![Deposit Page](screenshots/deposit.png)
+
+### Withdraw
+![Withdraw Page](screenshots/withdraw.png)
+
