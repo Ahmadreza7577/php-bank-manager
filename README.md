@@ -1,3 +1,10 @@
+
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
+![PDO](https://img.shields.io/badge/PDO-Prepared%20Statements-4B8BBE)
+![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white)
+
 # PHP Bank Manager
 
 A web-based bank account management application built with PHP, MySQL, HTML, and CSS.
